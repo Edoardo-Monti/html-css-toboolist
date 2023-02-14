@@ -9,3 +9,20 @@ li{
     margin-left: 1em;
 }
 
+body{
+    background-color: lightgray;
+}
+
+#v-allign{
+    vertical-align:middle;
+
+}
+
+h1{
+    display: inline-block;
+    
+}
+
+header{
+    background-color: white;
+}
