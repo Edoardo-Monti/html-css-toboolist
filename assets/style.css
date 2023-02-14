@@ -7,7 +7,7 @@
 }
 
 li{
-    margin-left: 1em;
+    /* margin-left: 1em; */
 }
 /* Logo */
 body{
@@ -58,3 +58,49 @@ nav{
     padding: 5px;
     border-radius: 5px;
 }
+
+/* lista  */
+main{
+    max-width: 70%;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+ul li{
+    list-style-type: none;
+    margin: 10px 0;
+
+}
+
+h3::before{
+    content: "\25BE";
+    font-size: 20px;
+    margin-right: 5px;
+}
+/* croce rossa con cerchio */
+.cros:before{
+    content: "\2717";
+    color: red;
+    margin-right: 10px;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 1px 5px;
+}
+
+/* spunta verde con cerchio */
+.check:before{
+    content: "\2713";
+    color: green;
+    margin-right: 10px;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 1px 3px;
+}
+
+
+
+  
+
