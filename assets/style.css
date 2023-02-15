@@ -7,7 +7,7 @@
 }
 
 li{
-    /* margin-left: 1em; */
+    /* margin-left: 1em;  */
 }
 /* Logo */
 body{
@@ -101,9 +101,9 @@ h3::before{
     padding: 1px 3px;
 }
 
-div{
+/* div{
     display: inline-block;
-}
+} */
 
 .edit::after{
     content: 'Editorial';
